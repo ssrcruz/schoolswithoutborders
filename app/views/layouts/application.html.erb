@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= link_to "Home", root_path %>
+<%= link_to "About", about_path %>
+<%= link_to "Scholarships", scholarships_path %>
+<%= link_to "Schools", schools_path %>
 <%= yield %>
 
 </body>
